@@ -1,0 +1,1 @@
+echo "Hellofrom Cron!!" >> myName.txt
