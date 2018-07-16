@@ -4,9 +4,9 @@
 echo "What's your name?"
 read USER_NAME
 echo "We are now creating a file named ${USER_NAME}_file.txt ..."
-touch "${USER_NAME}_file.txt"
+touch "${USER_NAME}_file.txt" #creating a .txt file
 echo "File created, now enter some text to be inserted into file"
 read temp
-echo $temp >> ${USER_NAME}_file.txt
+echo $temp >> ${USER_NAME}_file.txt #echoing to file created
 echo "Data saved sucessfully, press any key to exit"
 read temp
