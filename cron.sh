@@ -3,10 +3,10 @@
 
 
 #For all weekdays
-* 14 * * 1-5 D:\Training\Shell\file.sh
+0 14 * * 1-5 D:\Training\Shell\file.sh
 
 #every three hours between 8am to 8pm
-* 8-20/3 * * * D:\Training\Shell\file.sh
+0 8-20/3 * * * D:\Training\Shell\file.sh
 
 #odd days and even month
-* 0 1-31/2 2-12/2 * D:\Training\Shell\file.sh
+0 0 1-31/2 2-12/2 * D:\Training\Shell\file.sh
